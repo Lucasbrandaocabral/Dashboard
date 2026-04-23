@@ -82,17 +82,3 @@ O sistema usa **SQLite** (arquivo `database.db` na raiz do projeto). As tabelas 
 | `gastos` | Despesas por categoria e data |
 
 ---
-
-## Solução de problemas
-
-**"Node.js não encontrado"**
-→ Instale o Node.js em https://nodejs.org e reinicie o computador.
-
-**"dist/index.js não encontrado"**
-→ Rode `npm run build` para gerar o build de produção.
-
-**O navegador não abriu automaticamente**
-→ Acesse manualmente: `http://localhost:3000`
-
-**Porta 3000 já está em uso**
-→ O sistema tenta as portas 3001, 3002... automaticamente. Verifique no console qual porta foi usada.
